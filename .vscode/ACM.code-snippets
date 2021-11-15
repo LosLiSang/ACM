@@ -16,8 +16,8 @@
 	// 	"description": "Log output to console"
 	// }
 
-	"include": {
-		"prefix": "include",
+	"cyy": {
+		"prefix": "cyy",
 		"body": [
 			"#include<stdio.h>\n\nint main(){\n\n\treturn 0;\n}"
 		],
@@ -26,7 +26,7 @@
 	"c++": {
 		"prefix": "c++",
 		"body": [
-			"#include<iostream>\nusing namespace std;\n\nint main(){\n\n\treturn 0;\n}"
+			"#include<iostream>\n#include<math.h>\n#include<algorithm>\n#include<cstring>\n#include<queue>\n#define MAX 0x3f3f3f3f\n#define MIN INT16_MIN\n#define MAX_INPUT 10010\nusing namespace std;\n\nint main(){\n\n\treturn 0;\n}"
 		],
 		"description": "C++文件模板"
 	}
